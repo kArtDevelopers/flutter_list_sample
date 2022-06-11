@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import '../logs.dart';
+import '../utils/logs.dart';
 import '../models/events_model.dart';
 import 'apis.dart';
 import 'dart:convert' as convert;

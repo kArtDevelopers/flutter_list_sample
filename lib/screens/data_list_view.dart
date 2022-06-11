@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_list_sample/event_detail.dart';
-import 'package:flutter_list_sample/logs.dart';
+import 'package:flutter_list_sample/screens/event_detail.dart';
+import 'package:flutter_list_sample/utils/logs.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart'; //for DateFormat()
 
-import 'data_state.dart';
-import 'list_controller.dart';
-import 'models/events_model.dart';
+import '../utils/data_state.dart';
+import '../controllers/list_controller.dart';
+import '../models/events_model.dart';
 
 final _sController = TextEditingController();
 

@@ -1,10 +1,10 @@
 // This class is extended by ChangeNotifier
 // Since we will be notifying the Consumers or Listening widgets
 import 'package:flutter/material.dart';
-import 'package:flutter_list_sample/data_state.dart';
+import 'package:flutter_list_sample/utils/data_state.dart';
 import 'package:flutter_list_sample/models/events_model.dart';
 
-import 'network/api_manager.dart';
+import '../network/api_manager.dart';
 
 class ListController extends ChangeNotifier {
   int _currentPageNumber = 1; // Current Page to get Data from API
