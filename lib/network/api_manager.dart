@@ -42,12 +42,5 @@ class APIManager {
       appLogs('Request failed with status: ${response.statusCode}.');
       return null;
     }
-
-    // List<String> _list = [];
-    // int startIndex = currentPage * 10;
-    // for (int i = startIndex; i < startIndex + 10; i++) {
-    //   _list.add("Item #$i");
-    // }
-    // return _list;
   }
 }
